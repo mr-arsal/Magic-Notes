@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=s, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Project of lec 22</title>
+</head>
+
+<body>
+  <header class="text-gray-600 body-font bg-gray-400">
+    <div class="container mx-auto flex flex-wrap p-5 pl-0 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+        <span class="ml-3 text-xl">Magic Notes</span>
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      </nav>
+      
+    </div>
+  </header>
+  <main>
+    <div>
+      <h1 class="text-4xl ml-12 mt-7 font-semibold my-4">
+        Welcome to Magic Notes
+      </h1>
+    </div>
+    <div class="m-10 rounded overflow-hidden shadow-lg">
+      <div class="px-6 py-4">
+        <div class="font-bold text-2xl mb-2">Add title</div>
+        <hr>
+        <input type="text" class="border-black border-2 mt-4 w-[100%] h-10 p-5 text-lg" placeholder="Enter title" id="addtitle">
+        <div class="font-bold text-2xl mb-2 mt-4">Add a note</div>
+        <hr>
+        <textarea class="border-black border-2 mt-4 w-[100%] h-20 p-5 text-lg" id="addtxt"></textarea>
+        <br>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2" id="addnotebtn">
+          Add Note
+        </button>
+      </div>
+    </div>
+    <h1 class="text-4xl ml-12 mt-7 font-semibold my-4">Your Notes</h1>
+    <hr>
+    <div id="notes" class="flex">
+
+    </div>
+  </main>
+</body>
+<script src="Javascript/notesapp.js"></script>
+
+</html>
